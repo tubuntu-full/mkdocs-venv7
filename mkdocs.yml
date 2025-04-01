@@ -1,1 +1,23 @@
-site_name: My Docs
+site_name: My MkDocs 
+site_url: https://tubuntu-full.github.io/mkdocs-repo7/
+
+#theme:
+#  name: material  # You can change this to 'readthedocs' if you prefer
+theme:
+  name: bootstrap   
+
+nav:
+  - Home: index.md
+  - About: about.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - footnotes
+  - tables
+  - attr_list
+
+plugins:
+  - search
