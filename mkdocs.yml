@@ -4,7 +4,7 @@ site_url: https://tubuntu-full.github.io/mkdocs-repo7/
 #theme:
 #  name: material  # You can change this to 'readthedocs' if you prefer
 theme:
-  name: bootstrap   
+  name: material
 
 nav:
   - Home: index.md
@@ -21,3 +21,4 @@ markdown_extensions:
 
 plugins:
   - search
+  - cards
